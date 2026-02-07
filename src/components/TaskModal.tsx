@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import type { Task, TaskStatus } from '../types/task';
+import type { Task, TaskStatus } from '../type/task';
 
 interface Props {
   mode: 'create' | 'update';
